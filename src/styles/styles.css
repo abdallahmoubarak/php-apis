@@ -23,7 +23,7 @@ body {
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
   overflow: hidden;
-  font-size: 1.4rem;
+  font-size: 1.1rem;
   transition: 0.2s ease-out;
   -webkit-transition: 0.2s ease-out;
   -moz-transition: 0.2s ease-out;
@@ -82,6 +82,7 @@ body {
 }
 .card-input-title {
   padding: 0rem 1rem;
+  font-size: 1.1rem;
 }
 
 .card-input {
@@ -103,7 +104,7 @@ body {
 }
 .card-button {
   border: none;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   line-height: 1.2rem;
   color: white;
   background: #ba4aff;
