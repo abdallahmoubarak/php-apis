@@ -10,7 +10,7 @@ window.addEventListener("DOMContentLoaded", () => {
       .then((data) => (isPalindrome.innerHTML = data.isPalindrome));
   });
 
-  // palindrome
+  // christmas
   const christBtn = document.getElementById("christ-btn");
   const days = document.getElementById("days");
 
