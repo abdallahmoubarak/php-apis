@@ -6,3 +6,6 @@ API2: Implement a POST API that takes 3 inputs (a, b and c) and the API should r
 API3: Implement a POST API that takes a password a returns if the password is strong or not.<br/>
 API4: Implement a GET API that displays how many days are left for Christmas.<br/>
 Bonus: Implement a front end and link these APIs.<br/>
+
+Bonus
+<img src='./src/extrabones.png' alt=''>
