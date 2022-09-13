@@ -76,6 +76,8 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.6rem;
+  padding: 2rem 0rem;
+  border-bottom: 1px solid #ededed;
 }
 .card-input-title {
   padding: 0rem 1rem;
@@ -117,6 +119,14 @@ body {
 
 .card-button:hover {
   background: #d695ff;
+}
+
+.card-data-container {
+  padding: 0rem 1rem;
+}
+
+.card-data span {
+  color: #ba4aff;
 }
 
 /* footer */
