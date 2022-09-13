@@ -55,7 +55,7 @@
         <!-- abc function  -->
         <div class="card-input-container">
           <div class="card-input-title">a^3 + b*c - a/b.</div>
-          <form>
+          <form method="POST">
             <input
               type="text"
               class="card-input"
@@ -74,10 +74,12 @@
               id="c-input"
               placeholder="c"
             />
+            <div class="card-button-container">
+              <button type="submit" class="card-button" id="function-btn">
+                check
+              </button>
+            </div>
           </form>
-          <div class="card-button-container">
-            <button class="card-button" id="function-btn">check</button>
-          </div>
           <!-- data -->
           <div class="card-data-container">
             <div class="card-data">result : <span id="res"></span></div>
@@ -86,15 +88,19 @@
         <!-- password  -->
         <div class="card-input-container">
           <div class="card-input-title">Enter a password to test</div>
-          <input
-            type="text"
-            class="card-input"
-            id="pass-input"
-            placeholder="Enter a password to test"
-          />
-          <div class="card-button-container">
-            <button class="card-button" id="pass-btn">Is Strong</button>
-          </div>
+          <form method="POST">
+            <input
+              type="text"
+              class="card-input"
+              id="pass-input"
+              placeholder="Enter a password to test"
+            />
+            <div class="card-button-container">
+              <button type="submit" class="card-button" id="pass-btn">
+                Is Strong
+              </button>
+            </div>
+          </form>
           <!-- data -->
           <div class="card-data-container">
             <div class="card-data">
