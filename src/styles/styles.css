@@ -46,9 +46,10 @@ body {
 }
 .card-header {
   position: relative;
-  height: 8rem;
+  height: 3rem;
   text-align: center;
   padding-top: 2rem;
+  color: #ba4aff;
 }
 
 .card-header-circle {
